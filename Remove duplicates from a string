@@ -1,0 +1,7 @@
+# Remove duplicates from a string
+str="pardhup"
+l=""
+for ch in str:
+    if ch not in l:
+        l=l+ch
+print(l)
