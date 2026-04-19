@@ -1,0 +1,7 @@
+#Find the 2nd non repeatated element in a given string
+str="aabbcde"
+l=[]
+for ch in str:
+    if str.count(ch)==1:
+        l.append(ch)
+print(l[1])
