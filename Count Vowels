@@ -1,0 +1,10 @@
+# Count Vowels
+def Count_Vowels(s):
+    count=0
+    res="aeiou"
+    for i in s:
+        if i in res:
+            count=count+1
+    print("The total number of vowels is",count)
+Count_Vowels("Pardhu")
+    
