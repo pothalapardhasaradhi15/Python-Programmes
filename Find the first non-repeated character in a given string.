@@ -1,0 +1,6 @@
+#Find the first non-repeated character in a given string.
+str="aabbcde"
+for ch in str:
+    if str.count(ch)==1:
+        print(ch)
+        break
